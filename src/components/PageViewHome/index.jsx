@@ -37,7 +37,7 @@ const PageViewHome = (_props) => {
     return (
         <>
             <Style alt='Tela principal do site. Landing Page'>
-                <NavbarNav />
+                <NavbarNav primary={true} />
                 <MainContent />
             </Style>            
         </>

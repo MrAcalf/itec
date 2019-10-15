@@ -3,8 +3,9 @@ import { createGlobalStyle } from "styled-components"
 const NavbarStyle = createGlobalStyle`
 
 .nav {
+  /* Adapt the colors based on primary prop */
+  background: ${props => props.primary ? 'transparent' : '#eee'};
   width: 100%;
-  background-color: transparent;
   position: relative;
 }
 
@@ -14,8 +15,8 @@ const NavbarStyle = createGlobalStyle`
 
 .nav > .nav-header > .nav-title {
   display: inline-block;
-  color: #fff;
-  padding: 10px 1rem 10px 10px;
+  color: ${props => props.primary ? '#fff' : '#333'};
+  padding: 8px 1rem 7px 10px;
 }
 
 .nav > .nav-header > .nav-title a {
@@ -38,7 +39,7 @@ const NavbarStyle = createGlobalStyle`
   display: inline-block;
   padding: 12px 10px 12px 10px;
   text-decoration: none;
-  color: #efefef;
+  color: ${props => props.primary ? '#fff' : '#333'};
 }
 
 .nav > .nav-links > a:hover {

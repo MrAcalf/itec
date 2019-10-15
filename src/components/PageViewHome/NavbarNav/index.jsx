@@ -3,11 +3,12 @@ import NavbarStyle from '../../../styled-components/NavbarStyle'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 import Logo from '../../../styled-components/Logo'
+import { Link } from 'react-router-dom'
 
 const NavbarNav = (_props) => {
     return (
         <>
-        <NavbarStyle />
+        <NavbarStyle primary={_props.primary} />
             <header className='nav' alt='Cabeçalho'>
                 <input type='checkbox' id='nav-check' alt='Checkbox invisível. Dá função ao ícone responsivo'/>
                 <div className='nav-header' alt='Logotipo da empresa Info Tech'>
@@ -23,9 +24,10 @@ const NavbarNav = (_props) => {
                     </label>
                 </div>
                 <nav className='nav-links' alt='links para navegação'>
-                    <a href="#servicos" alt='sessão serviços' rel="noopener noreferrer">Serviços</a>
-                    <a href="#tecnologias" alt='sessão tecnologias' rel="noopener noreferrer">Tecnologias</a>
-                    <a href="#contato"alt='sessão contato' rel="noopener noreferrer">Contato</a>
+                    <Link to="/">Home</Link>
+                    <Link to="/empresa">A empresa</Link>
+                    <Link to="/missao">Nossa Missão</Link>
+                    <Link to="/servicos">Tabela de serviços</Link>
                 </nav>               
             </header>
         </>
