@@ -59,7 +59,7 @@ const NavbarStyle = createGlobalStyle`
     top: 0px;
   }
   .nav > .nav-btn > label {
-    color: #ffffffbb;
+    color: ${props => props.primary ? '#ffffffbb' : '#333333bb'};
     display: inline-block;
     width: 50px;
     height: 50px;
@@ -86,6 +86,7 @@ const NavbarStyle = createGlobalStyle`
     left: 0px;
   }
   .nav > .nav-links > a {
+    color: #fff;
     display: block;
     width: 100%;
   }

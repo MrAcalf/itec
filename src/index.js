@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import App from './App'
 import * as serviceWorker from './serviceWorker'
 import Base from "./styles/Base"
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import App from './App'
 import PageViewEmpresa from './components/PageViewEmpresa'
 import PageViewServicos from './components/PageviewServicos'
 import PageViewMissao from './components/PageViewMissao'

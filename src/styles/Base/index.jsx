@@ -7,7 +7,7 @@ const Base = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     scrollbar-width: thin;
-    scrollbar-color: #000 #344251;
+    scrollbar-color: #000 #333333;
   } 
   body {
     margin:0;
@@ -46,7 +46,7 @@ const Base = createGlobalStyle`
   ::-webkit-scrollbar{
     width:2px;
     height:9px;
-    background-color: rgba(50,70,90,.8);
+    background-color: #ffffff33;
   }
   ::-webkit-scrollbar-button:start:decrement,body::-webkit-scrollbar-button:end:increment{
     display:block;
