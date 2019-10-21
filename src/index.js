@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import * as serviceWorker from './serviceWorker'
 import Base from "./styles/Base"
-import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import App from './App'
 import PageViewEmpresa from './components/PageViewEmpresa'
 import PageViewServicos from './components/PageviewServicos'
@@ -10,7 +10,7 @@ import PageViewMissao from './components/PageViewMissao'
 
 ReactDOM.render(
     
-    <BrowserRouter>
+    <Router>
         <Switch>
             <>
                 <Base />
@@ -20,7 +20,7 @@ ReactDOM.render(
                 <Route path="/missao" exact={true} component={PageViewMissao} />
             </>
         </Switch>        
-    </ BrowserRouter>
+    </ Router>
     
     ,
     document.getElementById('root')
