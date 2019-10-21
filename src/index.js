@@ -14,10 +14,10 @@ ReactDOM.render(
         <Switch>
             <>
                 <Base />
-                <Route path="/" exact={true} component={App} />
-                <Route path="/empresa" exact={true} component={PageViewEmpresa} />
-                <Route path="/servicos" exact={true} component={PageViewServicos} />
-                <Route path="/missao" exact={true} component={PageViewMissao} />
+                <Route path="/" exact component={App} />
+                <Route path="/empresa/" component={PageViewEmpresa} />
+                <Route path="/servicos/" component={PageViewServicos} />
+                <Route path="/missao/" component={PageViewMissao} />
             </>
         </Switch>        
     </ Router>
