@@ -15,9 +15,9 @@ ReactDOM.render(
             <>
                 <Base />
                 <Route path="/" exact component={App} />
-                <Route path="/empresa/" component={PageViewEmpresa} />
-                <Route path="/servicos/" component={PageViewServicos} />
+                <Route path="/empresa/" component={PageViewEmpresa} />                
                 <Route path="/missao/" component={PageViewMissao} />
+                <Route path="/servicos/" component={PageViewServicos} />
             </>
         </Switch>        
     </ Router>
