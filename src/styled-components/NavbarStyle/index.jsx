@@ -30,6 +30,7 @@ const NavbarStyle = createGlobalStyle`
 }
 
 .nav > .nav-links {
+  z-index: 1;
   display: inline;
   float: right;
   font-size: 1.11em;

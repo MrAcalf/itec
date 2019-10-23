@@ -5,55 +5,65 @@ import Title from '../../../styled-components/Title'
 const Style = Styled.article`
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    flex: 0.8;
-    padding: 0 50% 0 3rem;
-    text-align: left;
-    margin-top: 3rem;
+    padding: 15px;
+    width: 100%; 
+    
 
     h1{
-        color: #ffffffcc;
-        margin-bottom: 30px; 
+        visibility: hidden;
+        position: fixed;
     }
 
     h2{
-        color: #ffffffcc;
-        margin-bottom: 2rem;
+        text-align: center;
+        padding: 0 auto;
+        text-shadow: 2px 2px 3px #000;
+        margin-top: 35px;
+        color: #ffffff;
+        width: 75%;
     }
 
-    @media(max-width: 375px){
-        margin-top: 1.5rem;
+    @media (min-width: 600px){
+        h2{
+            align-self: center;
+        }
     }
 
-    @media(max-width: 570px){
-        padding: 0 3rem;
+    @media (max-width: 439px){
+        h2{
+            align-self: center;
+            font-size: 1.4rem;
+            width:100%;
+        }
     }
+
+    @media (max-width: 325px){
+        h2{
+            align-self: center;
+            font-size: 1.2rem;
+        }
+    }
+
 `
 const Button = Styled.a`
-    display: inline-block;
-    font-size: 1.5em;
-    border-radius: 3px;
-    padding: 0.5rem 0;
-    margin: 0.5rem 1rem;
-    width: 11rem;
-    background-color: white;
-    color: black;    
-    border: 2px solid white;
-    align-self: left;
-    text-decoration:none;
-    text-align: center;
+    position: fixed;
+    align-self: center;
+    bottom: 80px;
+    text-decoration: none;
+    padding: 12px 15px 15px 15px;
+    font-size: 22px;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 8px;
 
     :hover{
-        background-color: white;
-        box-shadow: 2px 3px 12px #ffffffaa;
-        color: black;
+        background-color: #28B46344;
+        color: #fff;
     }
 
     :active{
-        background: transparent;
-        color: white;      
-        box-shadow: none;  
-        border: 2px solid white;
+        background-color: #ffffff;
+        color: #28B463;
     }
 
     
@@ -63,12 +73,12 @@ const MainContent = (_props) => {
     return (
         <>
             <Style>
-                <Title main>Info Tech</Title>
-                <h2>
+                <Title main className='hidden' >Info Tech</Title>
+                <h2 className='hidden'>
                     TUDO para sua empresa nas áreas de Informática e Tecnologia da Informação
                 </h2>
                 <Button 
-                href='11981824313' 
+                href='tel:011981824313'
                 target="_blank" 
                 rel="noopener noreferrer">Ligue me</Button>
             </Style>            
