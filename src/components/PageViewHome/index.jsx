@@ -2,7 +2,7 @@ import React from 'react'
 import Styled from 'styled-components'
 import NavbarNav from './NavbarNav'
 import MainContent from './MainContent'
-// import gif from '../../images/Info-Tech-Gif.gif'
+import itecGif from '../../images/GIF-ITEC.gif'
 
 const Style = Styled.div`
     margin: 0;
@@ -14,7 +14,7 @@ const Style = Styled.div`
       #34425155, 
       #34425133
     ),
-    url(https://media.giphy.com/media/JOQdXFxZzvyBdoD0me/giphy.gif); 
+    url(${itecGif}); 
     background-position: center;
     background-size: cover;   
 
@@ -23,7 +23,7 @@ const Style = Styled.div`
       #34425155, 
       #34425133
     ),
-    url(https://media.giphy.com/media/IgdLc135Be0BjdjbTI/giphy.gif);
+    url(${itecGif});
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
