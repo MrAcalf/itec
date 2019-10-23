@@ -64,11 +64,11 @@ const MainContent = (_props) => {
         <>
             <Style>
                 <Title main>Info Tech</Title>
-                <h2>Aqui será onde finalmente você encontrará TUDO 
-                    que precisa nas áreas de Informática e Tecnologia da Informação
+                <h2>
+                    TUDO para sua empresa nas áreas de Informática e Tecnologia da Informação
                 </h2>
                 <Button 
-                href='https://wa.me/5511981824313' 
+                href='11981824313' 
                 target="_blank" 
                 rel="noopener noreferrer">Ligue me</Button>
             </Style>            

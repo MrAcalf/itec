@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom'
 import * as serviceWorker from './serviceWorker'
 import Base from "./styles/Base"
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import App from './App'
 import PageViewEmpresa from './components/PageViewEmpresa'
 import PageViewServicos from './components/PageviewServicos'
 import PageViewMissao from './components/PageViewMissao'
+import PageViewHome from './components/PageViewHome'
 
 ReactDOM.render(
     
@@ -14,10 +14,10 @@ ReactDOM.render(
         <Switch>
             <>
                 <Base />
-                <Route path="/" exact component={App} />
-                <Route path="/empresa/" component={PageViewEmpresa} />                
-                <Route path="/missao/" component={PageViewMissao} />
-                <Route path="/servicos/" component={PageViewServicos} />
+                <Route path="/" exact component={PageViewHome} />
+                <Route path="/empresa" component={PageViewEmpresa} />                
+                <Route path="/missao" component={PageViewMissao} />
+                <Route path="/servicos" component={PageViewServicos} />
             </>
         </Switch>        
     </ Router>
@@ -25,8 +25,4 @@ ReactDOM.render(
     ,
     document.getElementById('root')
 )
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister()
