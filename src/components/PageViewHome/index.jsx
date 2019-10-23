@@ -3,7 +3,6 @@ import Styled from 'styled-components'
 import NavbarNav from './NavbarNav'
 import MainContent from './MainContent'
 import itecGif from '../../images/GIF-ITEC---RS.gif'
-import itecGifMob from '../../images/GIF-ITEC---RS01.gif'
 
 const Style = Styled.div`
     margin: 0;
@@ -24,10 +23,10 @@ const Style = Styled.div`
       #34425155, 
       #34425133
     ),
-    url(${itecGifMob});
+    url(${itecGif});
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: 200% 100%;
     }
     
     display: flex;
