@@ -1,6 +1,7 @@
 import React from 'react'
 import Styled from 'styled-components'
 import Title from '../../../styled-components/Title'
+import FooterSite from '../../../styled-components/Footer'
 
 const Style = Styled.article`
     display: flex;
@@ -29,9 +30,17 @@ const Style = Styled.article`
         }
     }
 
+    @media (max-width: 599px){
+        h2{
+            align-self: left;
+            text-align: left;
+        }
+    }
+
     @media (max-width: 439px){
         h2{
             align-self: center;
+            text-align: center;
             font-size: 1.4rem;
             width:100%;
         }
@@ -81,6 +90,7 @@ const MainContent = (_props) => {
                 href='tel:011981824313'
                 target="_blank" 
                 rel="noopener noreferrer">Ligue me</Button>
+                <FooterSite primary={true}/>
             </Style>            
         </>
     )

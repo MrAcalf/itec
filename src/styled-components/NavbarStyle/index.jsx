@@ -4,7 +4,7 @@ const NavbarStyle = createGlobalStyle`
 
 .nav {
   /* Adapt the colors based on primary prop */
-  background: ${props => props.primary ? 'transparent' : '#eee'};
+  background: ${props => props.primary ? 'transparent' : '#333'};
   width: 100%;
   position: relative;
 }
@@ -15,7 +15,7 @@ const NavbarStyle = createGlobalStyle`
 
 .nav > .nav-header > .nav-title {
   display: inline-block;
-  color: ${props => props.primary ? '#fff' : '#333'};
+  color: #fff;
   padding: 8px 1rem 7px 10px;
 }
 
@@ -40,7 +40,7 @@ const NavbarStyle = createGlobalStyle`
   display: inline-block;
   padding: 12px 10px 12px 10px;
   text-decoration: none;
-  color: ${props => props.primary ? '#fff' : '#333'};
+  color: #fff;
 }
 
 .nav > .nav-links > a:hover {
@@ -60,7 +60,7 @@ const NavbarStyle = createGlobalStyle`
     top: 0px;
   }
   .nav > .nav-btn > label {
-    color: ${props => props.primary ? '#ffffffbb' : '#333333bb'};
+    color: #fff;
     display: inline-block;
     width: 50px;
     height: 50px;

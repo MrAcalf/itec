@@ -2,6 +2,7 @@ import React from 'react'
 import NavbarNav from '../PageViewHome/NavbarNav'
 import PagesStyle from '../../styled-components/PagesStyle'
 import Estilo from './style'
+import FooterSite from '../../styled-components/Footer'
 
 const PageViewServicos = (_props) => {
     return (
@@ -63,7 +64,8 @@ const PageViewServicos = (_props) => {
                         </div>
                     </div>
                 </Estilo>
-            </PagesStyle>                      
+            </PagesStyle> 
+            <FooterSite/>                   
         </>
     )
 }
