@@ -10,7 +10,7 @@ const PageViewServicos = (_props) => {
             <NavbarNav />
             <PagesStyle>
                 <Estilo>
-                    <h1>SERVICOS</h1>
+                    <h1>SERVIÇOS</h1>
                     <br/>
                     <div className="tabela">
                         <div className='linha cabecalho'>
