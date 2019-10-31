@@ -10,6 +10,7 @@ const Estilo = Styled.div`
     }
 
     .tabela{
+        background-color: #fff;
         border-radius: 5px;
         box-shadow: 1px 3px 5px #888;
     }
