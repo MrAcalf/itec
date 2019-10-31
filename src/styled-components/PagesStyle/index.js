@@ -4,7 +4,7 @@ import bg from '../../images/BGpattern.png'
 const PagesStyle = Styled.div`
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Bree+Serif&display=swap');
-    height: 100vh;
+    min-height: 100vh;
     padding: 40px 5rem;
     margin: 0;
     text-align: justify !important;
