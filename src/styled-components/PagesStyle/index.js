@@ -1,4 +1,5 @@
 import Styled from 'styled-components'
+import bg from '../../images/BGpattern.png'
 
 const PagesStyle = Styled.div`
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
@@ -7,6 +8,20 @@ const PagesStyle = Styled.div`
     margin: 0;
     text-align: justify !important;
     font-family: 'Bree Serif', serif;
+    background: 
+    /* top, transparent red */ 
+    linear-gradient(
+    to bottom right,
+      #ffffffff, 
+      #ffffffea
+    ),
+    /* bottom, image */
+    url(${bg});
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+
 
     @media (max-width: 500px){
         padding: 20px 3rem;
