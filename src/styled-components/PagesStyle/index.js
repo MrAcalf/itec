@@ -11,6 +11,10 @@ const PagesStyle = Styled.div`
     @media (min-width: 1152px){
         padding: 20px 14em;
     }
+
+    @media (min-width: 1440px){
+        padding: 20px 20em;
+    }
     margin: 0;
     text-align: justify !important;
     font-family: 'Bree Serif', serif;
