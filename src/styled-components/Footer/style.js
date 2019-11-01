@@ -1,7 +1,6 @@
 import Styled from 'styled-components'
 
 const FooterStyle = Styled.footer`
-background-color: #ffffff44;
 color: ${props => props.primary ? '#fff' : '#333'};
 font-size: 9px;
 margin: 0;
