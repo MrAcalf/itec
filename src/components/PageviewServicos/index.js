@@ -21,46 +21,53 @@ const PageViewServicos = (_props) => {
                             <div className='elemento'>Cunha</div>
                         </div>
                         <div className='linha'>
-                            <div className='elemento'>Visita / Hora Técnica</div>
-                            <div className='elemento'>R$ 75,00</div>
-                            <div className='elemento'>R$ 80,00</div>
-                            <div className='elemento'>R$ 85,00</div>
-                            <div className='elemento'>R$ 150,00</div>
+                            <div className='elemento'>Visita</div>
+                            <div className='elemento'>R$ 175,00</div>
+                            <div className='elemento'>R$ 175,00</div>
+                            <div className='elemento'>R$ 175,00</div>
+                            <div className='elemento'>R$ 275,00</div>
+                        </div>
+                        <div className='linha'>
+                            <div className='elemento'>Hora Técnica</div>
+                            <div className='elemento'>R$ 110,00</div>
+                            <div className='elemento'>R$ 110,00</div>
+                            <div className='elemento'>R$ 110,00</div>
+                            <div className='elemento'>R$ 110,00</div>
                         </div>
                         <div className='linha'>
                             <div className='elemento'>Formatação ou readequação de ESTAÇÃO (unid.)</div>
-                            <div className='elemento'>R$ 80,00</div>
-                            <div className='elemento'>R$ 80,00</div>
-                            <div className='elemento'>R$ 80,00</div>
-                            <div className='elemento'>R$ 80,00</div>
+                            <div className='elemento'>R$ 125,00</div>
+                            <div className='elemento'>R$ 125,00</div>
+                            <div className='elemento'>R$ 125,00</div>
+                            <div className='elemento'>R$ 125,00</div>
                         </div>
                         <div className='linha'>
                             <div className='elemento'>Formatação ou readequação de SERVIDOR (unid.)</div>
-                            <div className='elemento'>R$ 150,00</div>
-                            <div className='elemento'>R$ 150,00</div>
-                            <div className='elemento'>R$ 150,00</div>
-                            <div className='elemento'>R$ 150,00</div>
+                            <div className='elemento'>R$ 250,00</div>
+                            <div className='elemento'>R$ 250,00</div>
+                            <div className='elemento'>R$ 250,00</div>
+                            <div className='elemento'>R$ 250,00</div>
                         </div>
                         <div className='linha'>
                             <div className='elemento'>Reconfiguração de REDE (Por PC)</div>
-                            <div className='elemento'>R$ 40,00</div>
-                            <div className='elemento'>R$ 40,00</div>
-                            <div className='elemento'>R$ 40,00</div>
-                            <div className='elemento'>R$ 40,00</div>
+                            <div className='elemento'>R$ 75,00</div>
+                            <div className='elemento'>R$ 75,00</div>
+                            <div className='elemento'>R$ 75,00</div>
+                            <div className='elemento'>R$ 75,00</div>
                         </div>
                         <div className='linha'>
                             <div className='elemento'>Configurar Rede ou Server</div>
-                            <div className='elemento'>R$ 80,00</div>
-                            <div className='elemento'>R$ 80,00</div>
-                            <div className='elemento'>R$ 80,00</div>
-                            <div className='elemento'>R$ 80,00</div>
+                            <div className='elemento'>R$ 120,00</div>
+                            <div className='elemento'>R$ 120,00</div>
+                            <div className='elemento'>R$ 120,00</div>
+                            <div className='elemento'>R$ 120,00</div>
                         </div>
                         <div className='linha'>
                             <div className='elemento'>Trocar peças (por PC)</div>
-                            <div className='elemento'>R$ 40,00</div>
-                            <div className='elemento'>R$ 40,00</div>
-                            <div className='elemento'>R$ 40,00</div>
-                            <div className='elemento'>R$ 40,00</div>
+                            <div className='elemento'>R$ 75,00</div>
+                            <div className='elemento'>R$ 75,00</div>
+                            <div className='elemento'>R$ 75,00</div>
+                            <div className='elemento'>R$ 75,00</div>
                         </div>
                     </div>
                 </Estilo>

@@ -4,8 +4,13 @@ import bg from '../../images/BGpattern.png'
 const PagesStyle = Styled.div`
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Bree+Serif&display=swap');
+    
     min-height: 100vh;
     padding: 40px 5rem;
+
+    @media (min-width: 1152px){
+        padding: 20px 14em;
+    }
     margin: 0;
     text-align: justify !important;
     font-family: 'Bree Serif', serif;
