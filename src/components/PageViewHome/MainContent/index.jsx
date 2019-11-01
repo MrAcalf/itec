@@ -88,7 +88,6 @@ const MainContent = (_props) => {
                 </h2>
                 <Button 
                 href='tel:011981824313'
-                target="_blank" 
                 rel="noopener noreferrer">Ligue me</Button>
                 <FooterSite primary={true}/>
             </Style>            
