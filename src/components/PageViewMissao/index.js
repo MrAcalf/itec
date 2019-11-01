@@ -2,7 +2,6 @@ import React from 'react'
 import NavbarNav from '../PageViewHome/NavbarNav'
 import PagesStyle from '../../styled-components/PagesStyle'
 import Estilo from './style'
-import FooterSite from '../../styled-components/Footer'
 
 
 const PageViewMissao = (_props) => {
@@ -58,7 +57,6 @@ Satisfazer as necessidades de nossos clientes através da busca incessante pela 
 
                 </Estilo>
             </PagesStyle>      
-            <FooterSite/>
         </>
     )
 }

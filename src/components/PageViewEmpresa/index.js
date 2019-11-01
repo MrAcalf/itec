@@ -2,7 +2,6 @@ import React from 'react'
 import NavbarNav from '../PageViewHome/NavbarNav'
 import Estilo from './style'
 import PagesStyle from '../../styled-components/PagesStyle'
-import FooterSite from '../../styled-components/Footer'
 
 
 const PageViewEmpresa = (_props) => {
@@ -89,8 +88,7 @@ Nosso intuito é o de poder proporcionar ao cliente total tranquilidade para uti
                     </ul>
 
                 </Estilo>
-            </PagesStyle>  
-            <FooterSite/>   
+            </PagesStyle>   
         </>
     )
 }
